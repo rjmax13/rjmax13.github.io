@@ -1,0 +1,44 @@
+body, html {
+
+  width: 100%;
+  height: 100%; 
+}
+
+.main {
+
+	background-position: center;
+	background-image: url("background.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+
+
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+}
+
+h1{
+
+color: rgb(48, 41, 41);
+text-shadow: 0 0 3px #AD6B6B;
+}
+
+.btn-primary {
+	background-color: rgb(33, 92, 33);
+	border-style: none;
+
+}
+
+.btn-primary:hover {
+	background-color: rgb(170, 201, 170);
+	color: rgb(33, 92, 33);
+}
